@@ -22,9 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFFacebookUtils.initializeFacebook()
         var storyboard = UIStoryboard(name: "Main", bundle: nil)
         var initialViewController:UIViewController
+        
+        
         if currentUser() != nil {
             // have we already logged in?
-            initialViewController = storyboard.instantiateViewControllerWithIdentifier("ProfileNavController") as UIViewController
+            initialViewController = pageController
         }
         else {
             initialViewController = storyboard.instantiateViewControllerWithIdentifier("LoginViewController") as UIViewController

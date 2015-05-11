@@ -12,6 +12,18 @@ class ProfileViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationItem.titleView = UIImageView(image: UIImage(named: "profile-header"))
+        
+        let rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav-back-button"), style: UIBarButtonItemStyle.Plain, target: self, action: "goToCards:")
+        navigationItem.setRightBarButtonItem(rightBarButtonItem, animated: true)
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,6 +44,8 @@ class ProfileViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    func goToCards(button: UIBarButtonItem) {
+        pageController.goToNextVC()
+    }
 
 }
