@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994558E81B0836D3001578CA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994558E71B0836D3001578CA /* ChatViewController.swift */; };
+		9954EA471B083E7F00A51393 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9954EA461B083E7F00A51393 /* libicucore.dylib */; };
+		9954EA491B083E8C00A51393 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9954EA481B083E8C00A51393 /* libc++.dylib */; };
+		9954EA4B1B083EBC00A51393 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954EA4A1B083EBC00A51393 /* Message.swift */; };
 		9979CEEC1AFF02ED0022D44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979CEEB1AFF02ED0022D44A /* AppDelegate.swift */; };
 		9979CEEE1AFF02ED0022D44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9979CEED1AFF02ED0022D44A /* ViewController.swift */; };
 		9979CEF11AFF02ED0022D44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9979CEEF1AFF02ED0022D44A /* Main.storyboard */; };
@@ -32,6 +36,9 @@
 		998DDC101AFF0F8A00E19365 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DDC0F1AFF0F8A00E19365 /* LoginViewController.swift */; };
 		998DDC131AFF18E000E19365 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DDC121AFF18E000E19365 /* User.swift */; };
 		998DDC151AFF1A7A00E19365 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998DDC141AFF1A7A00E19365 /* ProfileViewController.swift */; };
+		99EFD62A1B082C2A0055EF37 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EFD6291B082C2A0055EF37 /* MatchesTableViewController.swift */; };
+		99EFD62C1B082C960055EF37 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EFD62B1B082C960055EF37 /* UserCell.swift */; };
+		99EFD62E1B0830050055EF37 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EFD62D1B0830050055EF37 /* Match.swift */; };
 		B62107E9335EB37EA809F0FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F33E6336112D3EF8447B1D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +54,10 @@
 
 /* Begin PBXFileReference section */
 		85F33E6336112D3EF8447B1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		994558E71B0836D3001578CA /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9954EA461B083E7F00A51393 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		9954EA481B083E8C00A51393 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		9954EA4A1B083EBC00A51393 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		9979CEE61AFF02EC0022D44A /* CyPhyBitDate3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyPhyBitDate3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9979CEEA1AFF02ED0022D44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9979CEEB1AFF02ED0022D44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +88,9 @@
 		998DDC0F1AFF0F8A00E19365 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		998DDC121AFF18E000E19365 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		998DDC141AFF1A7A00E19365 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		99EFD6291B082C2A0055EF37 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
+		99EFD62B1B082C960055EF37 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		99EFD62D1B0830050055EF37 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		AC88E03F0EADE270FE9BDF89 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C102AE43B11D2B7A4D49ACF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9954EA491B083E8C00A51393 /* libc++.dylib in Frameworks */,
+				9954EA471B083E7F00A51393 /* libicucore.dylib in Frameworks */,
 				9979CF2D1AFF09110022D44A /* libsqlite3.dylib in Frameworks */,
 				9979CF2B1AFF09080022D44A /* libz.dylib in Frameworks */,
 				9979CF291AFF08FA0022D44A /* SystemConfiguration.framework in Frameworks */,
@@ -116,6 +132,8 @@
 		0C0749B394A7FF48451A3667 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9954EA481B083E8C00A51393 /* libc++.dylib */,
+				9954EA461B083E7F00A51393 /* libicucore.dylib */,
 				9979CF2C1AFF09110022D44A /* libsqlite3.dylib */,
 				9979CF2A1AFF09080022D44A /* libz.dylib */,
 				9979CF281AFF08FA0022D44A /* SystemConfiguration.framework */,
@@ -208,6 +226,7 @@
 			children = (
 				9979CF0B1AFF03460022D44A /* CardView.swift */,
 				9979CF0D1AFF03B20022D44A /* SwipeView.swift */,
+				99EFD62B1B082C960055EF37 /* UserCell.swift */,
 			);
 			name = Views;
 			path = ..;
@@ -220,6 +239,8 @@
 				9979CF101AFF04900022D44A /* CardsViewController.swift */,
 				998DDC0F1AFF0F8A00E19365 /* LoginViewController.swift */,
 				998DDC141AFF1A7A00E19365 /* ProfileViewController.swift */,
+				99EFD6291B082C2A0055EF37 /* MatchesTableViewController.swift */,
+				994558E71B0836D3001578CA /* ChatViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -237,6 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				998DDC121AFF18E000E19365 /* User.swift */,
+				99EFD62D1B0830050055EF37 /* Match.swift */,
+				9954EA4A1B083EBC00A51393 /* Message.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -378,11 +401,16 @@
 			files = (
 				998DDC101AFF0F8A00E19365 /* LoginViewController.swift in Sources */,
 				9979CEEE1AFF02ED0022D44A /* ViewController.swift in Sources */,
+				99EFD62A1B082C2A0055EF37 /* MatchesTableViewController.swift in Sources */,
 				9979CF0E1AFF03B20022D44A /* SwipeView.swift in Sources */,
 				9979CF111AFF04900022D44A /* CardsViewController.swift in Sources */,
 				9979CF0C1AFF03460022D44A /* CardView.swift in Sources */,
 				9979CEEC1AFF02ED0022D44A /* AppDelegate.swift in Sources */,
 				998DDC151AFF1A7A00E19365 /* ProfileViewController.swift in Sources */,
+				99EFD62E1B0830050055EF37 /* Match.swift in Sources */,
+				9954EA4B1B083EBC00A51393 /* Message.swift in Sources */,
+				99EFD62C1B082C960055EF37 /* UserCell.swift in Sources */,
+				994558E81B0836D3001578CA /* ChatViewController.swift in Sources */,
 				998DDC131AFF18E000E19365 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
